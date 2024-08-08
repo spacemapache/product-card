@@ -1,16 +1,26 @@
+body {
+  background-color: #b1b78b;
+}
 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 70px;
 }
 
 .productCard {
   display: flex;
   flex-direction: row;
+  max-width: 700px;
+  border: none;
+  border-radius: 20px;
 }
 
 .productDetails {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
+  padding: 10px;
+  background-color: #dacdab;
 }
 
 img {
@@ -21,6 +31,23 @@ img {
 button {
   width: 250px;
   height: 30px;
-
   text-align: center;
+  border-radius: 5px;
+  border: none;
+  background-color: #dcc26d;
+}
+
+h2 {
+  font-family: "Inconsolata", monospace;
+  font-weight: 200;
+  font-size: 15px;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+}
+
+p {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 12px;
 }
